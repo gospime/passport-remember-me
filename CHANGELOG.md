@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/gospime/passport-remember-me/compare/v0.1.0...v0.1.1) (2019-12-01)
+
+
+### Bug Fixes
+
+* set request into Issue callback, the same as for Verify ([5704274](https://github.com/gospime/passport-remember-me/commit/5704274d9c11b6a345e2e40b931052ff708cf916))
+
 ## [0.1.0](https://github.com/gospime/passport-remember-me/compare/v0.0.2...v0.1.0) (2019-12-01)
 
 
