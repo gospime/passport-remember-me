@@ -95,7 +95,11 @@ Strategy.prototype.authenticate = function(req, options) {
       return self.success(user, info);
     }
     
-    self._issue(user, issued);
+    if (self._passReqToCallback) {
+      self._issue(req, user, issued);
+    } else {
+      self._issue(user, issued);
+    }
   }
   
   if (self._passReqToCallback) {
