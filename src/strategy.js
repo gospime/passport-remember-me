@@ -53,7 +53,7 @@ Strategy.prototype.authenticate = function(req, options) {
   if (req.cookies && typeof req.cookies === 'object') {
     token = req.cookies[this._key];
   } else {
-    console.error('Maybe, you need to setup the package [cookie-parser](https://github.com/expressjs/cookie-parser)'
+    console.error('Maybe, you need to setup the package [cookie-parser](https://github.com/expressjs/cookie-parser)');
   }
   
   // Since the remember me cookie is primarily a convenience, the lack of one is
