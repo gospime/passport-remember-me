@@ -101,10 +101,6 @@ The following list is recommended reading for understanding these risks:
 - [Persistent Login Cookie Best Practice](http://fishbowl.pastiche.org/2004/01/19/persistent_login_cookie_best_practice/)
 - [Improved Persistent Login Cookie Best Practice](http://jaspan.com/improved_persistent_login_cookie_best_practice) [(archive)](http://web.archive.org/web/20130214051957/http://jaspan.com/improved_persistent_login_cookie_best_practice)
 
-## Examples
-
-For a complete, working example, refer to the [login example](https://github.com/jaredhanson/passport-remember-me/tree/master/examples/login).
-
 ## Tests
 
     $ npm install

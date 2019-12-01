@@ -1,4 +1,4 @@
-var rememberme = require('index');
+var rememberme = require('../src');
 
 
 describe('passport-remember-me', function() {
